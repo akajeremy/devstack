@@ -17,7 +17,8 @@
                 <h2 class="section-heading">We've got what you need!</h2>
                 <hr class="light">
                 <p class="text-faded">DevStack's team of highly qualified IT experts has what it takes to get the job done quickly and professionally!</p>
-                <a href="#" class="btn btn-default btn-xl">Get Started!</a>
+
+                <a href="mailto:your-email@your-domain.com" class="btn btn-default btn-xl">Get Started!</a>
             </div>
         </div>
     </div>
@@ -63,7 +64,7 @@
                 </div>
             </div>
         </div>
-        <%= link_to "Services", services_path, class: "btn btn-special btn-xl" %>
+        <%= link_to "Services", services_path, class: "btn btn-special btn-xl wow tada" %>
     </div>
 </section>
 
@@ -164,16 +165,50 @@
     </div>
 </section>
 
-<aside class="bg-dark">
+<section id="team">     
     <div class="container text-center">
         <div class="call-to-action">
-            <h2>Check out our full line of services</h2>
-            <a href="#" class="btn btn-default btn-xl wow tada">Services</a>
+            <h2>DevStack Team</h2>
+            <hr class="primary">
         </div>
+        <div class="row">
+        <div class="col-md-3">
+              <img class="img-rounded" src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/945561_10200124067692647_1660086017_n.jpg?oh=65bb0d91d326d20f9b75ef72a66ee984&oe=5611A36C" alt="Generic placeholder image" width="auto" height="240">
+              <h2>Jeremy Darpinksi</h2>
+              <span class="text-muted">Founder/Lead Developer/Lead Tech</span>
+                </p>
+              <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            </div>
+            <div class="col-md-3">
+              <img class="img-rounded" src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-ash2/v/t1.0-9/734509_10151202957846691_884268426_n.jpg?oh=1951d70ead1c3066989293f11537933c&oe=56224C7D" alt="Generic placeholder image" width="auto" height="240">
+              <h2>Steph Pizzo</h2>
+              <span class="text-muted">Lead Back-End Developer</span>
+                </p>
+              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            </div>
+            <div class="col-md-3">
+              <img class="img-rounded" src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/11329908_10153712031396996_7102865137774900684_n.jpg?oh=4eb3375a1fedd8aa3da412e093447e8d&oe=561F1668" alt="Generic placeholder image" width="auto" height="240">
+              <h2>Sean Caulfie</h2>
+              <span class="text-muted">Project Manager/Front-End Developer</span>
+                </p>
+              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            </div>
+            <div class="col-md-3">
+              <img class="img-rounded" src="https://lh6.googleusercontent.com/-sdEHxAJUiUQ/U49H__nKtKI/AAAAAAAAABk/E2QgOMgw4GA/w378-h379-no/fb.jpg" alt="Generic placeholder image" width="auto" height="240">
+              <h2>Phil Olindo</h2>
+              <span class="text-muted">Lead Security Engineer/Tech</span>
+                </p>
+              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            </div>
+        </div><!-- /.row -->
     </div>
-</aside>
+
+</section>
+
+
 
 <section id="contact">
+    <aside class="bg-dark">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -183,7 +218,7 @@
             </div>
             <div class="col-lg-4 col-lg-offset-2 text-center">
                 <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                <p>123-456-6789</p>
+                <p><a>123-456-6789</a></p>
             </div>
             <div class="col-lg-4 text-center">
                 <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
@@ -191,4 +226,5 @@
             </div>
         </div>
     </div>
+</aside>
 </section>

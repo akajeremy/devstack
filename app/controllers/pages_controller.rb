@@ -8,4 +8,6 @@ class PagesController < ApplicationController
   def services
   end
   
+  def careers
+  end
 end
