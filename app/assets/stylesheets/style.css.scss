@@ -1,10 +1,4 @@
-@import 'bootstrap';
-
-/*!
- * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+@import 'bootstrap'; 
 
 html,
 body {
@@ -273,6 +267,7 @@ header .header-content .header-content-inner p {
     position: relative;
     margin: 0 auto;
     max-width: 650px;
+    max-height: 900px;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -350,6 +345,7 @@ header .header-content .header-content-inner p {
     -moz-transition: all .35s;
     transition: all .35s;
 }
+
 
 .btn-default:hover,
 .btn-default:focus,
@@ -489,4 +485,9 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+#team {
+    width: 100%;
+
 }
